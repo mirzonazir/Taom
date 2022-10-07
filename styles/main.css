@@ -2,7 +2,41 @@
     font-size: 16px;
     font-weight: 500;
 }
+
 body {
     background: #fefefe;
     color: #7f7f7f;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a:hover,
+.items:hover,
+.items:active,
+.menu a:active {
+    color: #39d500;
+}
+
+.menu a,
+.items {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #7f7f7f;
+
 }

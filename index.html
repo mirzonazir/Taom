@@ -6,10 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAOM | Просто выбери блюдо из списка</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/media.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="" alt="Таомхо барои интихоб" srcset="">
+            </div>
+            <div class="menu">
+                <div class="items">Главная</div>
+                <div class="items">О Нас</div>
+                <div class="items">Блюда</div>
+                <div class="items">Добавить</div>
+            </div>
+            <div class="icons"></div>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="contentWrapper">
+                <div class="breackfast">
+                    <a href="#">
+                        <p id="breakfast"></p>
+                    </a>
+                </div>
+                <div class="lunch">
+                    <a href="#">
+                        <p id="lunch"></p>
+                    </a>
+                </div>
+                <div class="dinner">
+                    <a href="#">
+                        <p id="dinner"></p>
+                    </a>
+                </div>
 
+                <div class="dessert">
+                    <a href="#">
+                        <p id="dessert"></p>
+                    </a>
+                </div>
+            </div>
+            <div class="refresh">
+                <button id="btnRefresh">Обновить</button>
+            </div>
+        </div>
+    </main>
 </body>
+<script src="./scripts/app.js"></script>
 
 </html>

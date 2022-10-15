@@ -40,3 +40,16 @@ a {
     color: #7f7f7f;
 
 }
+
+/* .content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center; */
+/* } */
+
+.contentWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+}

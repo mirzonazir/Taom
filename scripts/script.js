@@ -4,7 +4,7 @@ let breakfast = [
     {
         id: 1,
         title: 'Манная каша',
-        img: '/Taom/images/manna-kasha.jpg',
+        img: './images/manna-kasha.jpg',
         url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
 
 

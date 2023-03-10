@@ -1,4 +1,24 @@
 
+const images = [
+    {
+        id: 1,
+        src: '/images/manna-kasha.jpg',
+    },
+    {
+        id: 2,
+        src: '/images/tvorojen-zapekanka.jpg',
+    },
+    {
+        id: 3,
+        src: '/images/sirniki.jpeg',
+    },
+];
+
+function insertFoodImages(item, breakfast) {
+    if (item.id === breakfast) {
+        return item.src;
+    }
+}
 var breakfast = ["Манная каша", "Твороженная запеканка", "Сырники", "Геркулес", "Рисовая каша", "Жаренные яйца", "Варенные яйца", "Омлет", "Жаренная картошка", "Гренки", "Оладьи", "Нондамдам", "Куймок", "Картошкамалхам", "Блинчик с творогом", "Творог со сметаной", "Хлеб с маслом"];
 var lunch = ["Картошка с сыром", "Пюре с котлетой", "Картошка фри", "Мастова", "Вермишель", "Макарон-палов", "Шула", "Гречка-палов", "Гарнир с подливом", "Жаренннае яйца с помидором", "Пицца", "Борщ", "Лагман", "Грибной суп", "Сырный Суп", "Хрущевский суп", "Бургер"];
 var dinner = ["Лазанья", "Шашлык", "Отбивное мясо", "Резашурбо", "Щи", "Куринный бульон", "Хомшурбо", "Рагу", "Жаренная курочка", "Плов", "Манту", "Хонум", "Пельмени", "Картошка и мясо", "Мошгурунч", "Шуламошак", "Дамлама", "Макароны по флотски", "Столичный салат (Оливье - вместо колбасы отварная курица)", "Салат овощной", "Курица с ананасом"];
@@ -19,15 +39,8 @@ document.getElementById('lunch').innerHTML = toLuch;
 document.getElementById('dinner').innerHTML = toDinner;
 document.getElementById('dessert').innerHTML = toDessert;
 
-// breakfastImg = document.getElementById("breakfastImg");
+let breakfastImg = insertFoodImages(images);
+document.getElementById("breakfastImg").innerHTML = breakfastImg;
 
 
-var img = new Image();
-img.src = '/images/pic.jpg';
-img1.src = '/images/logo.png';
 
-if (breakfast[i] == breakfast[0]) {
-    document.getElementById("breakfastImg").innerHTML = img;
-} else {
-    document.getElementById("breakfastImg").innerHTML = img1;
-}

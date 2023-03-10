@@ -47,9 +47,51 @@ a {
     justify-items: center; */
 /* } */
 
-.contentWrapper {
+/* .contentWrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
 
+} */
+.contentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+
+.container {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.foods {
+    max-width: 25%;
+    padding: 25px;
+    border: #7f7f7f solid 1px;
+}
+.foods {
+    max-width: 25%;
+}
+.titleAlign{
+    text-align: center;
+}
+.titleAlign h3{
+    font-size: 22px;
+    line-height: 1.5;
+    color: #2c2c2c;
+}
+.titleAlign p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #474747;
+}
+.foodTitle {
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 1px 1px #7f7f7f;
 }

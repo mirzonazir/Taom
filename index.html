@@ -13,62 +13,79 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <img src="./images/logo.png" alt="Выбери что готовить" srcset="" width="140">
-            </div>
-            <div class="menu">
-                <a href="">
+            <a href="/">
+                <div class="logo container">
+                    <img src="./images/logo.png" alt="Выбери что готовить" srcset="" width="140">
+                </div>
+            </a>
+            <div class="menu container">
+                <a href="#">
                     <div class="items">Главная</div>
                 </a>
-                <a href="">
-                    <div class="items">О Нас</div>
-                </a>
-                <a href="">
+                <a href="/foods-list.html">
                     <div class="items">Блюда</div>
                 </a>
-                <a href="">
-                    <div class="items">Добавить</div>
+                <a href="#">
+                    <div class="items ">Добавить</div>
                 </a>
             </div>
             <div class="icons"></div>
         </nav>
     </header>
     <main>
-        <div class="content">
+        <div class="container">
+            <div class="titleAlign">
+                <h3>
+                    Не знаете что приготовить? <br> Мы предлаем вам выбор блюд на любой вкус.
+                </h3>
+                <p>Выберите, что приготовить и не стоит размышлять, а также вы можете посмотреть рецепт блюда</p>
+                <p>Мы говорим на языке хорошей еды</p>
+            </div>
+        </div>
+        <div class="content container">
             <div class="contentWrapper">
-                <div class="breackfast">
+
+                <div class="foods breackfast" id="breakRoot">
                     <h4 class="foodTitle">Завтрак</h4>
-                    <a href="#">
-                        <img id="breakfastImg" src="./images/preloader.gif" alt="" srcset="" width="80">
-                        <p id="breakfast"></p>
-                    </a>
-                </div>
-                <div class="lunch">
-                    <h4 class="foodTitle">Обед</h4>
-                    <a href="#">
-                        <p id="lunch"></p>
-                    </a>
-                </div>
-                <div class="dinner">
-                    <h4 class="foodTitle">Ужин</h4>
-                    <a href="#">
-                        <p id="dinner"></p>
+                    <a href="#" id="breakfastRecept">
+                        <img id="breakfastImg" src="" alt="" srcset="" width="250">
+                        <p id="breakfastText"></p>
                     </a>
                 </div>
 
-                <div class="dessert">
-                    <h4 class="foodTitle">Сладкое</h4>
-                    <a href="#">
-                        <p id="dessert"></p>
+                <div class="foods lunch">
+                    <h4 class="foodTitle">Обед</h4>
+                    <a href="#" id="lunchRecept">
+                        <img id="lunchImg" src="" alt=""  width="250">
+                        <p id="lunchText"></p>
                     </a>
                 </div>
+
+                <div class="foods dinner">
+                    <h4 class="foodTitle">Ужин</h4>
+                    <a href="#" id="dinnerRecept">
+                        <img id="dinnerImg" src="" alt="" width="250">
+                        <p id="dinnerText"></p>
+                    </a>
+                </div>
+
+                <div class="foods dessert">
+                    <h4 class="foodTitle">Сладкое</h4>
+                    <a id="dessertRecept" href="#">
+                        <img id="dessertImg" src="" alt="" width="250">
+                        <p id="dessertText"></p>
+                    </a>
+                </div>
+
             </div>
+
             <div class="refresh">
                 <button id="btnRefresh" value="Показать ещё" onClick="window.location.reload();">Показать ещё</button>
             </div>
         </div>
     </main>
 </body>
-<script src="./scripts/app.js"></script>
+<!-- <script src="./scripts/app.js"></script> -->
+<script src="/scripts/script.js"></script>
 
 </html>

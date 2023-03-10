@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .contentWrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foods {
+        height: 400px;
+    }
+}

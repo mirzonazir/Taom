@@ -6,8 +6,6 @@ let breakfast = [
         title: 'Манная каша',
         img: './images/manna-kasha.jpg',
         url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
-
-
     },
     {
         id: 2,
@@ -38,6 +36,55 @@ let breakfast = [
         id: 7,
         title: 'Жаренные яйца',
         img: './images/zharenie-yaychsa.jpeg',
+    },
+    {
+        id: 8,
+        title: "Омлет",
+        img: '',
+    },
+    {
+        id: 9,
+        title: "Жаренная картошка",
+    },
+    {
+        id: 10,
+        title: "Гренки",
+        img: '',
+    },
+    {
+        id: 11,
+        title: "Оладьи",
+        img: "",
+    },
+    {
+        id: 12,
+        title: "Нондамдам",
+        img: '',
+    },
+    {
+        id: 13,
+        title: "Куймок",
+        img: '',
+    },
+    {
+        id: 14,
+        title: "Картошкамалхам",
+        img: '',
+    },
+    {
+        id: 15,
+        title: "Блинчик с творогом",
+        img: '',
+    },
+    {
+        id: 16,
+        title: "Творог со сметаной",
+        img: '',
+    },
+    {
+        id: 17,
+        title: "Хлеб с маслом",
+        img: '',
     },
 ];
 

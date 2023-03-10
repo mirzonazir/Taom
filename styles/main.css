@@ -72,23 +72,25 @@ a {
     max-width: 25%;
     padding: 25px;
     border: #7f7f7f solid 1px;
+    height: 480px;
 }
-.foods {
-    max-width: 25%;
-}
-.titleAlign{
+
+.titleAlign {
     text-align: center;
 }
-.titleAlign h3{
+
+.titleAlign h3 {
     font-size: 22px;
     line-height: 1.5;
     color: #2c2c2c;
 }
+
 .titleAlign p {
     font-size: 18px;
     line-height: 1.8;
     color: #474747;
 }
+
 .foodTitle {
     font-size: 22px;
     font-weight: 900;

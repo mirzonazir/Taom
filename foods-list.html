@@ -13,6 +13,45 @@
 
 <body>
     <div id="foods"></div>
+
+
+
+
+
+    <form action="mailto:mirzonazir.okhunov@gmail.com" method="post">
+        <div class="formGrp">
+            <label for="foodCategory">Выбери категорию</label><br>
+            <select name="foodCategory" id="foodCategory">
+                <option value="breackfast">Завтрак</option>
+                <option value="lunch">Обед</option>
+                <option value="dinner">Ужин</option>
+                <option value="dessert">Десерт</option>
+            </select>
+        </div>
+        <div class="formGrp">
+            <label for="foodname">Название блюда</label><br>
+            <input type="text" name="foodname" id="foodname">
+        </div>
+        <div class="formGrp">
+            <label for="upload">Загрузить изображение</label><br>
+            <input type="file" name="upload" id="upload" value="Загрузить изображение">
+        </div>
+        <div class="formGrp">
+            <label for="descrText">Рецепт</label> <br>
+            <textarea name="descrText" id="descrText" cols="30" rows="10" placeholder="Опишите рецепт"></textarea>
+        </div>
+        <div class="formGrp">
+            <button type="submit">Отправить</button>
+        </div>
+
+
+
+    </form>
+
+
+
+
+
 </body>
 
 </html>

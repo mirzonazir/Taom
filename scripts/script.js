@@ -4,7 +4,7 @@ let breakfast = [
     {
         id: 1,
         title: 'Манная каша',
-        img: '/images/manna-kasha.jpg',
+        img: './images/manna-kasha.jpg',
         url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
 
 
@@ -12,32 +12,32 @@ let breakfast = [
     {
         id: 2,
         title: 'Твороженная запеканка',
-        img: '/images/tvorojen-zapekanka',
+        img: './images/tvorojen-zapekanka.jpg',
     },
     {
         id: 3,
         title: 'Сырники',
-        img: '/images/sirniki.jpeg',
+        img: './images/sirniki.jpeg',
     },
     {
         id: 4,
         title: 'Геркулесовая каша',
-        img: '/images/gerkules-kasha.jpg',
+        img: './images/gerkules-kasha.jpg',
     },
     {
         id: 5,
         title: 'Рисовая каша',
-        img: '/images/rise-kasha.jpg',
+        img: './images/rise-kasha.jpg',
     },
     {
         id: 6,
         title: 'Варенные яйца',
-        img: '/images/varyoniy-yayzcha.jpg',
+        img: './images/varyoniy-yayzcha.jpg',
     },
     {
         id: 7,
         title: 'Жаренные яйца',
-        img: '/images/zharenie-yaychsa.jpeg',
+        img: './images/zharenie-yaychsa.jpeg',
     },
 ];
 

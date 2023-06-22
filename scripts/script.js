@@ -91,38 +91,38 @@ let breakfast = [
 let lunch = [
     {
         id: 1,
-        title: 'Манная каша',
+        title: 'Суп гороховый',
         img: './images/manna-kasha.jpg',
         url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
     },
     {
         id: 2,
-        title: 'Твороженная запеканка',
+        title: 'Борщ украинский',
         img: './images/tvorojen-zapekanka.jpg',
     },
     {
         id: 3,
-        title: 'Сырники',
+        title: 'Плов из курицы',
         img: './images/sirniki.jpeg',
     },
     {
         id: 4,
-        title: 'Геркулесовая каша',
+        title: 'Гречка и котлеты',
         img: './images/gerkules-kasha.jpg',
     },
     {
         id: 5,
-        title: 'Рисовая каша',
+        title: 'Макароны по флотски',
         img: './images/rise-kasha.jpg',
     },
     {
         id: 6,
-        title: 'Варенные яйца',
+        title: 'Курица на углях или гриль',
         img: './images/varyoniy-yayzcha.jpg',
     },
     {
         id: 7,
-        title: 'Жаренные яйца',
+        title: 'Рассольник',
         img: './images/zharenie-yaychsa.jpeg',
     },
         
@@ -153,9 +153,9 @@ breakfastImg.src = toMorning.img;
 breakfastText.textContent = toMorning.title;
 breakfastRecept.href = toMorning.url;
 
-lunchImg.src = toMorning.img;
-lunchText.textContent = toMorning.title;
-lunchRecept.href = toMorning.url;
+lunchImg.src = toLuch.img;
+lunchText.textContent = toLuch.title;
+lunchRecept.href = toLuch.url;
 
 
 

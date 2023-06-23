@@ -4,38 +4,38 @@ let breakfast = [
     {
         id: 1,
         title: 'Манная каша',
-        img: './images/manna-kasha.jpg',
+        img: './images/breakfast/manna-kasha.jpg',
         url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
     },
     {
         id: 2,
         title: 'Твороженная запеканка',
-        img: './images/tvorojen-zapekanka.jpg',
+        img: './images/breakfast/gerkules-kasha.jpg',
     },
     {
         id: 3,
         title: 'Сырники',
-        img: './images/sirniki.jpeg',
+        img: './images/breakfast/sirniki.jpeg',
     },
     {
         id: 4,
         title: 'Геркулесовая каша',
-        img: './images/gerkules-kasha.jpg',
+        img: './images/breakfast/gerkules-kasha.jpg',
     },
     {
         id: 5,
         title: 'Рисовая каша',
-        img: './images/rise-kasha.jpg',
+        img: './images/breakfast/rise-kasha.jpg',
     },
     {
         id: 6,
         title: 'Варенные яйца',
-        img: './images/varyoniy-yayzcha.jpg',
+        img: './images/breakfast/varyoniy-yayzcha.jpg',
     },
     {
         id: 7,
         title: 'Жаренные яйца',
-        img: './images/zharenie-yaychsa.jpeg',
+        img: './images/breakfast/zharenie-yaychsa.jpeg',
     },
     {
         id: 8,
@@ -90,40 +90,40 @@ let breakfast = [
 
 let lunch = [
     {
-        id: 1,
+        id: 20,
         title: 'Суп гороховый',
-        img: './images/manna-kasha.jpg',
+        img: './images/breakfast/manna-kasha.jpg',
         url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
     },
     {
-        id: 2,
+        id: 21,
         title: 'Борщ украинский',
-        img: './images/tvorojen-zapekanka.jpg',
+        img: './images/breakfast/tvorojen-zapekanka.jpg',
     },
     {
-        id: 3,
+        id: 22,
         title: 'Плов из курицы',
-        img: './images/sirniki.jpeg',
+        img: './images/breakfast/sirniki.jpeg',
     },
     {
-        id: 4,
+        id: 23,
         title: 'Гречка и котлеты',
-        img: './images/gerkules-kasha.jpg',
+        img: './images/breakfast/gerkules-kasha.jpg',
     },
     {
-        id: 5,
+        id: 24,
         title: 'Макароны по флотски',
-        img: './images/rise-kasha.jpg',
+        img: './images/breakfast/rise-kasha.jpg',
     },
     {
-        id: 6,
+        id: 25,
         title: 'Курица на углях или гриль',
-        img: './images/varyoniy-yayzcha.jpg',
+        img: './images/breakfast/varyoniy-yayzcha.jpg',
     },
     {
-        id: 7,
+        id: 26,
         title: 'Рассольник',
-        img: './images/zharenie-yaychsa.jpeg',
+        img: './images/breakfast/zharenie-yaychsa.jpeg',
     },
         
 ];

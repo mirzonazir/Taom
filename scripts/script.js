@@ -11,6 +11,7 @@ let breakfast = [
         id: 2,
         title: 'Твороженная запеканка',
         img: './images/breakfast/gerkules-kasha.jpg',
+        url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
     },
     {
         id: 3,
@@ -99,16 +100,19 @@ let lunch = [
         id: 21,
         title: 'Борщ украинский',
         img: './images/breakfast/tvorojen-zapekanka.jpg',
+        url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
     },
     {
         id: 22,
         title: 'Плов из курицы',
         img: './images/breakfast/sirniki.jpeg',
+        url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
     },
     {
         id: 23,
         title: 'Гречка и котлеты',
         img: './images/breakfast/gerkules-kasha.jpg',
+        url: 'https://1000.menu/cooking/22871-mannaya-kasha-na-moloke-i-vode',
     },
     {
         id: 24,

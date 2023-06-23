@@ -147,7 +147,8 @@ var toDessert = dessert[foodDessert];
 
 let breakfastImg = document.getElementById("breakfastImg");
 let breakfastText = document.getElementById('breakfastText');
-// let breakfastRecept = document.querySelector(['data-id="breakfastRecept"']);
+let breakfastRecept = document.getElementById('breakfastRecept');
+let lunchRecept = document.getElementById('lunchRecept');
 
 breakfastImg.src = toMorning.img;
 breakfastText.textContent = toMorning.title;
